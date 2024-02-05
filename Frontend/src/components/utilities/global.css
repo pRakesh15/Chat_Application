@@ -1,0 +1,16 @@
+.message
+{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+    
+}
+.message::-webkit-scrollbar {
+    display: none;
+}
+/* .hide::-webkit-scrollbar
+{
+    display: none;
+} */
